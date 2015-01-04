@@ -13,4 +13,9 @@ class User
   def child?
     @age <= 12
   end
+
+  def save_profile(name, email)
+    @name = name
+    @email = email
+  end
 end
